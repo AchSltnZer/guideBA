@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".komen.addkmn">
+
+    <TextView
+        android:id="@+id/add_usnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dummy" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editkmn"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:ems="10"
+        android:hint="Komen"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+</LinearLayout>

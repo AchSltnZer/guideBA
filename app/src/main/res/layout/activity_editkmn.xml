@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".komen.editkmn">
+
+    <TextView
+        android:id="@+id/edit_usnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/updatekmn"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/upd_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+</LinearLayout>

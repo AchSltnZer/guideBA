@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blue Archive Info</string>
+    <string name="equip_info">Informasi Umum</string>
+    <string name="info_1">Setiap students hanya bisa memakai 3 type equipment.
+        • Students secara otomatis membuka slot equipment pertama dan akan slot yang lain ketika berada pada level tertentu.</string>
+    <string name="info_2">
+         •• Slot 1 ~ Level 1\n
+        •• Slot 2 ~ Level 15\n
+        •• Slot 3 ~ Level 35
+    </string>
+    <string name="info_3">
+          Sekali equipment dipasang, tidak akan bisa dilepas\n
+         Setiap Students memiliki satu slot dari masing-masing ke-tiga kategori berikut::\n
+        ••Firepower Frame -> Hat -> Glove -> Shoe\n
+        ••Endurance Frame -> Hairpin -> Badge -> Bag\n
+        ••Auxiliary Frame -> Watch -> Charm -> Necklace
+    </string>
+
+</resources>
