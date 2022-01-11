@@ -105,11 +105,11 @@ public class StudentList extends AppCompatActivity implements AdapterSt.OnNoteLi
                 addToRequestQueue(request);
     }
 
-//    void add(){
-//        userArrayList.add(new Student("Mutsuki", "Striker",img[1],2));
-//        userArrayList.add(new Student("Izuna", "Striker",img[0],3));
-//    }
-        void filter(String text){
+    void add(){
+        userArrayList.add(new Student("Mutsuki", "Striker","","","","https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Arrow_icon.svg/62px-Arrow_icon.svg.png",2));
+        userArrayList.add(new Student("Izuna", "Striker","","","","https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Arrow_icon.svg/62px-Arrow_icon.svg.png",3));
+    }
+    void filter(String text){
             ArrayList<Student> temp = new ArrayList();
             for(Student d: userArrayList){
                 //or use .equal(text) with you want equal match
