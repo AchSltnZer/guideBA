@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableisi"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
@@ -7,31 +8,31 @@
 
     <TableRow>
 
-
         <LinearLayout
             android:id="@+id/LinearLayout01"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
-                android:layout_gravity="center"
                 android:id="@+id/tbl1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:padding="8dp"
                 android:textColor="@color/black"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/first"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imgeq"
@@ -44,19 +45,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/LinearLayout02"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
-                android:layout_gravity="center"
                 android:id="@+id/tbl3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
