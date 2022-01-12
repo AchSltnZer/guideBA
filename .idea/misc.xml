@@ -6,6 +6,7 @@
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/drawable/clip_source.xml" value="0.1" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/drawable/shadowssa.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/activity_aboutcr.xml" value="0.25" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/activity_addkmn.xml" value="0.25" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/activity_bguide.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/activity_editkmn.xml" value="0.25" />
@@ -21,6 +22,7 @@
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/st_list.xml" value="0.33" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/layout/table_list.xml" value="0.5" />
         <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/SULTON/AndroidStudioProjects/bainfogame/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>

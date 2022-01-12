@@ -21,12 +21,16 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.CookieHandler;
+import java.net.CookieManager;
+import java.net.CookiePolicy;
 import java.util.ArrayList;
 import java.util.List;
 
 public class EqActivity extends AppCompatActivity implements View.OnClickListener {
 
     private static final String URL_ST = "https://zirorio.000webhostapp.com/getEq.php";
+    private static final String URL_S = "http://baguideppb.42web.io/getEq.php";
     private RecyclerView recyclerView;
     private eqAdapter adapter;
     private ArrayList<eqmodel> eq_list;
@@ -73,10 +77,13 @@ public class EqActivity extends AppCompatActivity implements View.OnClickListene
 
 
     void getEq() {
+        CookieHandler.setDefault( new CookieManager( null, CookiePolicy.ACCEPT_ALL ) );
         StringRequest request = new StringRequest(Request.Method.GET, URL_ST, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
+
+                    Log.d("volley", "response : " + response.toString());
                     JSONArray array = new JSONArray(response);
                     Log.d("volley", "response : " + response.toString());
                     for (int i = 0; i < array.length(); i++) {

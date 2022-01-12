@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.example.bainfogame.Adapter.ItemAdapter;
 import com.example.bainfogame.Adapter.Items;
+import com.example.bainfogame.about.aboutcr;
 import com.example.bainfogame.bguide.bguide;
 import com.example.bainfogame.equipment.EqActivity;
 import com.example.bainfogame.komen.komenFeed;
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnNot
         startActivity(new Intent(MainActivity.this, komenFeed.class));
         }else if(userArrayList.get(positon).getNama().equals("Comment")){
             startActivity(new Intent(MainActivity.this, komenFeed.class));
+        }else if(userArrayList.get(positon).getNama().equals("About")){
+            startActivity(new Intent(MainActivity.this, aboutcr.class));
         }
     }
 
