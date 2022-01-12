@@ -18,7 +18,9 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".about.aboutcr"
-            android:exported="true" />
+            android:exported="true"
+            android:label="About"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".bguide.bguide"
             android:exported="true"

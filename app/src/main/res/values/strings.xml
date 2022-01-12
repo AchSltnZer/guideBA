@@ -18,5 +18,17 @@
 
     <string name="aboutus">ABOUT US</string>
     <string name="cr1">Achmad Sulton (191111062)</string>
-    <string name="cr2">ABOUT US</string>
+    <string name="cr1d"> Merupakan mahasiswa jurusan TI dari STIKI MALANG. </string>
+    <string name="no"> +62 852 3648 9953 </string>
+    <string name="tips">Tips Awal Bermain Blue Archive</string>
+    <string name="tips1">Setelah menyelesaikan tutorial, kau akan diberikan kesempatan untuk melakukan
+    free 10 draw yang mana <i>guaranted</i> 3 star.
+    \n\n\nPada Blue archive terdapat dua tipe karakter :
+    </string>
+    <string name="tips1lnj">Strikers adalah karakter yang akan kamu pakai dan lihat saat melakukan misidan gameplay,
+    jika mereka semua mati maka misi failed.
+    \nSedangkan Specials adalah karakter yang tidak terlihat tapi memberikan beberapa karakteristik ke Strikers.
+    \n\n Team dibagi menjadi 4 Strikers dan 2 Specials</string>
+
+
 </resources>

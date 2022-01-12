@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnNot
         startActivity(new Intent(MainActivity.this, StudentList.class));
         }else if(userArrayList.get(positon).getNama().equals("Equipments")){
             startActivity(new Intent(MainActivity.this, EqActivity.class));
-        }else if(userArrayList.get(positon).getNama().equals("B.Guide")){
+        }else if(userArrayList.get(positon).getNama().equals("Tips Pemula")){
             startActivity(new Intent(MainActivity.this, bguide.class));
         }else if(userArrayList.get(positon).getNama().equals("Campaign")){
         startActivity(new Intent(MainActivity.this, komenFeed.class));
