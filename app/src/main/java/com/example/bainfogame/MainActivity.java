@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnNot
         userArrayList = new ArrayList<>();
         userArrayList.add(new Items("Students",as[0]));
         userArrayList.add(new Items("Equipments",as[1]));;
-        userArrayList.add(new Items("Map Info",as[4]));
+//        userArrayList.add(new Items("Map Info",as[4]));
         userArrayList.add(new Items("Tips Pemula",as[2]));
         userArrayList.add(new Items("Comment",as[3]));
         userArrayList.add(new Items("About",as[5]));

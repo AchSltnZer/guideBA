@@ -18,6 +18,12 @@
             android:layout_marginTop="45dp"
             android:background="#00CBE6" />
 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center" />
 
 
     </LinearLayout>
@@ -32,47 +38,73 @@
         android:textColor="#000000"
         android:textSize="28sp" />
 
-    <ImageView
-        android:id="@+id/abot1"
-        android:layout_width="189dp"
-        android:layout_height="179dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="56dp"
-        tools:srcCompat="@drawable/student" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="212dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/abot1"
-        android:layout_marginBottom="-38dp"
-        android:gravity="center"
-        android:text="@string/cr1" />
-
-    <TextView
-        android:id="@+id/textView10"
+    <LinearLayout
+        android:id="@+id/imgl"
         android:layout_width="match_parent"
-        android:layout_height="43dp"
-        android:layout_alignBottom="@id/textView8"
-        android:layout_marginBottom="-126dp"
-        android:drawableLeft="@drawable/wacon"
-        android:drawablePadding="5dp"
-        android:padding="10dp"
-        android:text="@string/no" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/abot1"
+            android:layout_width="0dp"
+            android:layout_height="179dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:layout_weight=".5"
+            tools:srcCompat="@drawable/aboutim1" />
+
+        <ImageView
+            android:id="@+id/abot2"
+            android:layout_width="0dp"
+            android:layout_height="179dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="56dp"
+            android:layout_toRightOf="@id/abot1"
+            android:layout_weight=".5"
+            tools:src="@drawable/aboutim2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imgln"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/imgl"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-38dp"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:text="@string/cr1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-38dp"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:text="@string/cr2" />
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/textView8"
-        android:layout_marginBottom="-55dp"
-        android:orientation="horizontal"
-        >
+        android:layout_below="@id/imgln"
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_weight=".5"
             android:gravity="center"
             android:text="@string/cr1d" />
@@ -83,7 +115,8 @@
             android:layout_height="wrap_content"
             android:layout_weight=".5"
             android:gravity="center"
-            android:text="TextView" />
+            android:text="@string/cr2id" />
+
 
     </LinearLayout>
 

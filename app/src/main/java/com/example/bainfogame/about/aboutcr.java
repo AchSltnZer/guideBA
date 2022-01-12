@@ -16,5 +16,7 @@ public class aboutcr extends AppCompatActivity {
         setContentView(R.layout.activity_aboutcr);
         ImageView img1 = (ImageView) findViewById(R.id.abot1);
         img1.setImageResource(R.drawable.aboutim1);
+        ImageView img2 = (ImageView) findViewById(R.id.abot2);
+        img2.setImageResource(R.drawable.aboutim2);
     }
 }

@@ -28,7 +28,31 @@
     <string name="tips1lnj">Strikers adalah karakter yang akan kamu pakai dan lihat saat melakukan misidan gameplay,
     jika mereka semua mati maka misi failed.
     \nSedangkan Specials adalah karakter yang tidak terlihat tapi memberikan beberapa karakteristik ke Strikers.
-    \n\n Team dibagi menjadi 4 Strikers dan 2 Specials</string>
+    \n\n Team dibagi menjadi 4 Strikers dan 2 Specials <i>*Karakter diatas Strikers, dibawah Specials</i></string>
+<string name="tips2">Student Compatibility</string>
+    <string name="cr2">Ardhiansyah Kurniawan (191111044)</string>
+    <string name="cr2id">Mahasiswa STIKI Malang Angkatan 2019</string>
+    <string name="reroll">REROLLING</string>
+    <string name="rerollg">Tentu saja pada game gacha kamu pastin ingin mendapatkan roll atau pull karakter yang bagus atau
+    karakter yang dinginkan dan line up terbaik.
+    \n\nOleh karena itu kamu bisa melakukan reroll untuk mendapatkan karakter yang bagus atau yang diinginkan sebagai
+    startup
+    \nBerikut Langkah-Langkah Reroll :
+    \n   ✪ Jalankan Aplikasi Blue Archive.
+    \n   ✪ Selesaikan Tutorial.
+    \n   ✪ Selesaikan Misi pertama.
+    \n   ✪ Claim freebies/reward dari mailbox.
+    \n   ✪ Lakukan Pull/Gacha dengan reward.
+    \n
+    \nJika kamu tidak puas dengan hasil gacha kamu bisa melakukan reroll dengan mengikuti langkah-langkah berikut :
+    \n
+    </string>
+    <string name="rerollg0">  ✪ Tap tombol menu di pojok kanan atas.</string>
+    <string name="rerollg1">  ✪ Click Account</string>
+    <string name="rerollg2">  ✪ Click Continue di reset account</string>
+    <string name="rerollg3">  ✪ Type BlueArchive dan confirm
+    \n Ulangi Langkah-Langkah-nya sampai kamu dapat apa yang kamu inginkan. Simple!</string>
+
 
 
 </resources>
